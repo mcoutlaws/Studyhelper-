@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# StudyHelper WB
 
-# Run and deploy your AI Studio app
+A comprehensive study helper app designed for West Bengal Board students.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/bce9ea9c-3e7a-4621-bf44-5cebe3a7bfd4
+- **Dashboard**: Track study hours, points, and level.
+- **Subjects**: Manage enrolled subjects.
+- **Tasks**: To-do list for study planning with gamification.
+- **Question Bank**: Short and long answer questions for various subjects.
+- **Exam Suggestions**: Curated tips and important topics.
+- **MCQ Practice**: Quizzes to test knowledge and earn points.
+- **Leaderboard**: See top performing students.
+- **WB Board Resources**: Access syllabus and downloads.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide React (Icons)
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Clone the repository.
+2.  Run `npm install` to install dependencies.
+3.  Run `npm run dev` to start the development server.
+4.  Build for production with `npm run build`.
+
+## Project Structure
+
+- `/src`: Source code
+  - `/components`: Reusable UI components
+  - `/context`: React Context for state management (Auth)
+  - `/pages`: Application pages
+  - `/lib`: Utility functions
